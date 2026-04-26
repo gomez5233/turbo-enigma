@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      
+   
+      "edgeToEdgeEnabled": true,
+      "package": "com.gomez5233.clientesapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "publicPath": "./"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c3f3339-11a7-4151-a779-c5bba1650f9c"
+      }
     }
   }
 }
